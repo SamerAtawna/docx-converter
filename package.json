@@ -1,0 +1,13 @@
+{
+  "name": "docx-converter",
+  "version": "1.0.0",
+  "description": "DOCX to PDF conversion service using LibreOffice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "libreoffice-convert": "^1.5.1"
+  }
+}
