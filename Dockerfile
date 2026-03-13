@@ -6,7 +6,6 @@ RUN apt-get update && apt-get install -y \
     fontconfig \
     fonts-liberation \
     fonts-dejavu-core \
-    fonts-noto-core \
     --no-install-recommends \
   && rm -rf /var/lib/apt/lists/*
 
